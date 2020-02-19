@@ -19,8 +19,11 @@ int main()
     cout << s3;
 
     str s4(" World"); 
+    cout << "S4 = ";
+    s4.print();
     str s5;
     s5 = s2 + s4;
+    cout << "s5(s2 + s4) = ";
     s5.print();
 
     return 0;
